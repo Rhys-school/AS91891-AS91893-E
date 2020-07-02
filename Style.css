@@ -1,0 +1,185 @@
+body {
+    padding: 0px;
+    color: white;    /*-- Black --*/ 
+    font-family: 'Taprom', cursive;
+    margin: 0px;
+    background-color: #0A344C; /*-- Midnight blue --*/
+}
+
+
+/*--- site grid setup ---*/
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 150px 5fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "banner banner"
+        "nav nav"
+        "main main"
+        "footer footer";
+    
+}
+    
+/*---end grid setup---*/
+
+/* area styling */
+
+
+
+.html {
+    padding: 0px;
+}
+
+.box {
+    padding: 15px;
+    margin: 0px;
+    background-color: #0A344C; /*-- Midnight blue --*/
+    font-family: 'Teko', sans-serif;
+    font-size: 25px;
+}
+
+/*.logo {
+   height: 111px; 
+   width: 148px;
+} */
+
+
+.main{
+    grid-area: main;
+    text-align: center;
+    color: black;
+    padding: 0px;
+}
+
+.banner{
+    grid-area: banner;
+    text-align: center;
+    font-size: 75px;
+    color: black;
+    padding: 25px;
+    margin: 0px;
+}
+
+.footer{
+    grid-area: footer;
+}
+
+/* Add a black background color to the top navigation */
+.nav {
+    text-align: center;
+    grid-area: nav;
+    background-color: #000;
+    overflow: hidden;
+    padding: 15px;
+    margin-top: -35px;
+}
+
+/* Style the links inside the navigation bar */
+.nav a {
+  text-align: center;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 1px 10px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.nav a:active {
+  background-color: #ddd;
+  color: white;
+}
+
+  .parallax {
+
+  background-image: url("WebsiteImages/Deadlock1.jpg");
+  background-repeat: no-repeat;
+  padding: 0px; 
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+  .parallax1 {
+
+  background-image: url("WebsiteImages/glassmaker1.jpg");
+  background-repeat: no-repeat;
+  padding: 0px;
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+  .parallax2 {
+
+  background-image: url("WebsiteImages/glassmaker1.jpg");
+  background-repeat: no-repeat;
+  padding: 0px;
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+  .parallax3 {
+
+  background-image: url("WebsiteImages/glassmaker1.jpg");
+  background-repeat: no-repeat;
+  padding: 0px;
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+  .parallax4 {
+
+  background-image: url("WebsiteImages/glassmaker1.jpg");
+  background-repeat: no-repeat;
+  padding: 0px;
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+  .parallax5 {
+
+  background-image: url("WebsiteImages/glassmaker1.jpg");
+  background-repeat: no-repeat;
+  padding: 0px;
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+  .parallax6 {
+
+  background-image: url("WebsiteImages/Wisp1.png");
+  background-repeat: no-repeat;
+  padding: 0px;
+  width: 800px;
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  }
+/* end area style */
+
+
